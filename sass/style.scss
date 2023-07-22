@@ -1,13 +1,2 @@
-body {
-    margin: 0;
-    padding: 0;
-    
-}
-
-header {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-}
-    
+@import "base/variables";
+@import "pages/homePage";
