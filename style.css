@@ -1,9 +1,52 @@
-.header {
-  width: 140px;
-  height: 50px;
+header {
   padding: 15px;
+}
+
+.searchBar {
+  height: 50px;
+  color: #353535;
+  cursor: text;
+}
+
+.searchBar_text {
+  font-weight: 500;
+  font-family: "roboto", sans-serif;
+}
+
+.descrihead {
   display: flex;
-  align-content: center;
+  flex-direction: column;
+}
+
+.description {
+  background: #f6f6f6;
+  padding: 45px 2em 57px 2em;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+
+.description_title {
+  font-size: 1.5em;
+  font-weight: 800;
+}
+
+.description_text {
+  font-size: 1.125em;
+  font-weight: 300;
+  margin: 1em 0 2em 0;
+  align-items: center;
+}
+
+header, .searchBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=style.css.map */

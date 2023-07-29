@@ -1,8 +1,48 @@
-.header {
-    width: 140px;
-    height: 50px;
-    padding: 15px ;
-    display: flex;
-    align-content: center;
+
+
+header {
+    @extend %flexmid;
+    padding: 15px;
+   
 }
 
+
+.searchBar {
+    @extend %flexmid;
+    height: 50px;
+    color:$colorblack;
+    cursor: text;
+}
+
+.searchBar_text {
+    font-weight: 500;
+    font-family:"roboto" ,sans-serif;
+}
+
+.descrihead {
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.description {
+    background:$colorbackground;
+    padding: 45px 2em 57px 2em;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+  }
+
+
+.description_title {
+    font-size: 1.5em;
+    font-weight: 800;
+}
+
+.description_text {
+    font-size: 1.125em;
+    font-weight: 300;
+    margin: 1em 0 2em 0;
+    align-items: center;
+    
+}
